@@ -15,13 +15,13 @@ let task;
 
  
 
-  // if(localStorage.getItem("tasks")!=""){
-  //   let exitng = localStorage.getItem("tasks")
-  //   task = exitng.split(",")
-  // }else{ task =  []
+  if(localStorage.getItem("tasks")!="" && localStorage.getItem("tasks")!=null){
+    let exitng = localStorage.getItem("tasks")
+    task = exitng.split(",")
+  }else{ task =  []
 
-  // }
-  task =  []
+  }
+
 
 
 
@@ -51,7 +51,8 @@ formtask.addEventListener("submit",function(e){
 
      })
    }
-  
+   display()
+   
 
 
 
