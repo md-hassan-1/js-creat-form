@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+<style>
+    ul{
+        list-style: none;
+    }
+</style>
+<body>
+
+<div class="container mt-3">
+    <h1 class="mb-2">CREAT A FORM</h1>
+    <div class="row">
+        <div class="col-md-4">
+            <form action="" class="form-group  bg-dark text-white p-2" id="maintask">
+               <div class="mb-1 p-2">
+                <label for="" class="form-label">Name</label>
+                <input type="text" id="input" class="form-control" required>
+
+               </div>
+               <div class="mb-1 p-2">
+                <label for="" class="form-label">Email</label>
+                <input type="email" id="email"class="form-control" required>
+
+               </div>
+
+               <div class="mb-1 p-2">
+                <label for="" class="form-label">Phone</label>
+                <input type="tel" id="phone" class="form-control" required>
+
+               </div>
+               <div class="mb-1 p-2">
+                <label for="" class="form-label">Course Name</label>
+                <input type="text" id="course" class="form-control" required>
+
+               </div>
+               <div class="mb-1 p-2">
+                <label for="" class="form-label">Join date</label>
+                <input type="date" id="date" class="form-control" required>
+
+               </div>
+
+
+               <button id="addtask" class="btn btn-success m-2"> add task</button>
+             
+
+
+            </form>
+        </div>
+    
+    <div class="col-md-4">
+        <div class="div"> </div>          
+    </div>
+</div>
+</div>
+   <!-- <form id="maintask">  -->
+    <!-- <input type="text" id="input">
+    <input type="email" id="email">
+    <input type="tel" id="phone"> -->
+    
+   <!-- <button id="addtask" >add task</button> -->
+</form>
+
+   <br>
+   <hr>
+    <ul class="tasklist"></ul>
+    
+
+
+    <script src="script.js"></script>
+</body>
+</html>
